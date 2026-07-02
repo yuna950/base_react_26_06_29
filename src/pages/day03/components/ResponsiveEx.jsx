@@ -1,3 +1,5 @@
+import { Sparkles } from "lucide-react";
+
 export default function ResponsiveEx() {
   return (
     <div className="min-h-screen bg-gray-300 p-4">
@@ -20,7 +22,11 @@ export default function ResponsiveEx() {
             lg:text-2xl
       "
       >
-        <h1>반응형 예제</h1>
+        <h1>
+          <Sparkles />
+          반응형 예제
+        </h1>
+
         <p>창 크기를 조절해보세요</p>
 
         <div className="mt-4">
