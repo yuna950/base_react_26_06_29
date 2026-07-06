@@ -5,6 +5,8 @@ export default function Ex01() {
   const onLike = () => {
     //   setLike((prev) => (like ? false : true));
     setLike((prev) => !prev);
+    // 부정 꼭 알아두기(토글 스위치에 정말 많이 쓰임)
+    // 다크모드 연습 해보기
   };
   return (
     <div className="h-screen flex flex-col justify-center items-center bg-blue-100 ">
