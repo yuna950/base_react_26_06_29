@@ -29,7 +29,7 @@ export default function StateEx01() {
 
   const plusHandler = () => setNum((prev) => prev + 1);
   const minusHandler = () => setNum((prev) => prev - 1);
-  // 이전값 => 변경값
+  // 기본값 => 변경값
 
   return (
     <div className="h-screen flex items-center justify-center bg-gray-200">
